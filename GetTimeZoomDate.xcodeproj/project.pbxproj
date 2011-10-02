@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		78871DD31438E4C1001454CE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78871DD21438E4C1001454CE /* UIKit.framework */; };
+		78871DD51438E4C1001454CE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78871DD41438E4C1001454CE /* Foundation.framework */; };
+		78871DD71438E4C1001454CE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78871DD61438E4C1001454CE /* CoreGraphics.framework */; };
+		78871DDD1438E4C1001454CE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 78871DDB1438E4C1001454CE /* InfoPlist.strings */; };
+		78871DDF1438E4C1001454CE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 78871DDE1438E4C1001454CE /* main.m */; };
+		78871DE31438E4C1001454CE /* GetTimeZoomDateAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 78871DE21438E4C1001454CE /* GetTimeZoomDateAppDelegate.m */; };
+		78871DE71438E4C1001454CE /* GetTimeZoomDateAppDelegate_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 78871DE61438E4C1001454CE /* GetTimeZoomDateAppDelegate_iPhone.m */; };
+		78871DEA1438E4C1001454CE /* MainWindow_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 78871DE81438E4C1001454CE /* MainWindow_iPhone.xib */; };
+		78871DEE1438E4C1001454CE /* GetTimeZoomDateAppDelegate_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = 78871DED1438E4C1001454CE /* GetTimeZoomDateAppDelegate_iPad.m */; };
+		78871DF11438E4C1001454CE /* MainWindow_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 78871DEF1438E4C1001454CE /* MainWindow_iPad.xib */; };
+		78871DF91438E4C1001454CE /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78871DF81438E4C1001454CE /* SenTestingKit.framework */; };
+		78871DFA1438E4C1001454CE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78871DD21438E4C1001454CE /* UIKit.framework */; };
+		78871DFB1438E4C1001454CE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78871DD41438E4C1001454CE /* Foundation.framework */; };
+		78871DFC1438E4C1001454CE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78871DD61438E4C1001454CE /* CoreGraphics.framework */; };
+		78871E041438E4C1001454CE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 78871E021438E4C1001454CE /* InfoPlist.strings */; };
+		78871E061438E4C1001454CE /* GetTimeZoomDateTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 78871E051438E4C1001454CE /* GetTimeZoomDateTests.h */; };
+		78871E081438E4C1001454CE /* GetTimeZoomDateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 78871E071438E4C1001454CE /* GetTimeZoomDateTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		78871DFD1438E4C1001454CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 78871DC51438E4C0001454CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 78871DCD1438E4C1001454CE;
+			remoteInfo = GetTimeZoomDate;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		78871DCE1438E4C1001454CE /* GetTimeZoomDate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GetTimeZoomDate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		78871DD21438E4C1001454CE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		78871DD41438E4C1001454CE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		78871DD61438E4C1001454CE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		78871DDA1438E4C1001454CE /* GetTimeZoomDate-Info.plist */ = {isa = PBXFileReference; path = "GetTimeZoomDate-Info.plist"; sourceTree = "<group>"; };
+		78871DDC1438E4C1001454CE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		78871DDE1438E4C1001454CE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		78871DE01438E4C1001454CE /* GetTimeZoomDate-Prefix.pch */ = {isa = PBXFileReference; path = "GetTimeZoomDate-Prefix.pch"; sourceTree = "<group>"; };
+		78871DE11438E4C1001454CE /* GetTimeZoomDateAppDelegate.h */ = {isa = PBXFileReference; path = GetTimeZoomDateAppDelegate.h; sourceTree = "<group>"; };
+		78871DE21438E4C1001454CE /* GetTimeZoomDateAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GetTimeZoomDateAppDelegate.m; sourceTree = "<group>"; };
+		78871DE51438E4C1001454CE /* GetTimeZoomDateAppDelegate_iPhone.h */ = {isa = PBXFileReference; name = GetTimeZoomDateAppDelegate_iPhone.h; path = iPhone/GetTimeZoomDateAppDelegate_iPhone.h; sourceTree = "<group>"; };
+		78871DE61438E4C1001454CE /* GetTimeZoomDateAppDelegate_iPhone.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = GetTimeZoomDateAppDelegate_iPhone.m; path = iPhone/GetTimeZoomDateAppDelegate_iPhone.m; sourceTree = "<group>"; };
+		78871DE91438E4C1001454CE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPhone/en.lproj/MainWindow_iPhone.xib; sourceTree = "<group>"; };
+		78871DEC1438E4C1001454CE /* GetTimeZoomDateAppDelegate_iPad.h */ = {isa = PBXFileReference; name = GetTimeZoomDateAppDelegate_iPad.h; path = iPad/GetTimeZoomDateAppDelegate_iPad.h; sourceTree = "<group>"; };
+		78871DED1438E4C1001454CE /* GetTimeZoomDateAppDelegate_iPad.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = GetTimeZoomDateAppDelegate_iPad.m; path = iPad/GetTimeZoomDateAppDelegate_iPad.m; sourceTree = "<group>"; };
+		78871DF01438E4C1001454CE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPad/en.lproj/MainWindow_iPad.xib; sourceTree = "<group>"; };
+		78871DF71438E4C1001454CE /* GetTimeZoomDateTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GetTimeZoomDateTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		78871DF81438E4C1001454CE /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		78871E011438E4C1001454CE /* GetTimeZoomDateTests-Info.plist */ = {isa = PBXFileReference; path = "GetTimeZoomDateTests-Info.plist"; sourceTree = "<group>"; };
+		78871E031438E4C1001454CE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		78871E051438E4C1001454CE /* GetTimeZoomDateTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GetTimeZoomDateTests.h; sourceTree = "<group>"; };
+		78871E071438E4C1001454CE /* GetTimeZoomDateTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GetTimeZoomDateTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		78871DCB1438E4C1001454CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78871DD31438E4C1001454CE /* UIKit.framework in Frameworks */,
+				78871DD51438E4C1001454CE /* Foundation.framework in Frameworks */,
+				78871DD71438E4C1001454CE /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78871DF31438E4C1001454CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78871DF91438E4C1001454CE /* SenTestingKit.framework in Frameworks */,
+				78871DFA1438E4C1001454CE /* UIKit.framework in Frameworks */,
+				78871DFB1438E4C1001454CE /* Foundation.framework in Frameworks */,
+				78871DFC1438E4C1001454CE /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		78871DC31438E4C0001454CE = {
+			isa = PBXGroup;
+			children = (
+				78871DD81438E4C1001454CE /* GetTimeZoomDate */,
+				78871DFF1438E4C1001454CE /* GetTimeZoomDateTests */,
+				78871DD11438E4C1001454CE /* Frameworks */,
+				78871DCF1438E4C1001454CE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		78871DCF1438E4C1001454CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				78871DCE1438E4C1001454CE /* GetTimeZoomDate.app */,
+				78871DF71438E4C1001454CE /* GetTimeZoomDateTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		78871DD11438E4C1001454CE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				78871DD21438E4C1001454CE /* UIKit.framework */,
+				78871DD41438E4C1001454CE /* Foundation.framework */,
+				78871DD61438E4C1001454CE /* CoreGraphics.framework */,
+				78871DF81438E4C1001454CE /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		78871DD81438E4C1001454CE /* GetTimeZoomDate */ = {
+			isa = PBXGroup;
+			children = (
+				78871DE11438E4C1001454CE /* GetTimeZoomDateAppDelegate.h */,
+				78871DE21438E4C1001454CE /* GetTimeZoomDateAppDelegate.m */,
+				78871DE41438E4C1001454CE /* iPhone */,
+				78871DEB1438E4C1001454CE /* iPad */,
+				78871DD91438E4C1001454CE /* Supporting Files */,
+			);
+			path = GetTimeZoomDate;
+			sourceTree = "<group>";
+		};
+		78871DD91438E4C1001454CE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				78871DDA1438E4C1001454CE /* GetTimeZoomDate-Info.plist */,
+				78871DDB1438E4C1001454CE /* InfoPlist.strings */,
+				78871DDE1438E4C1001454CE /* main.m */,
+				78871DE01438E4C1001454CE /* GetTimeZoomDate-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		78871DE41438E4C1001454CE /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				78871DE51438E4C1001454CE /* GetTimeZoomDateAppDelegate_iPhone.h */,
+				78871DE61438E4C1001454CE /* GetTimeZoomDateAppDelegate_iPhone.m */,
+				78871DE81438E4C1001454CE /* MainWindow_iPhone.xib */,
+			);
+			name = iPhone;
+			sourceTree = "<group>";
+		};
+		78871DEB1438E4C1001454CE /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				78871DEC1438E4C1001454CE /* GetTimeZoomDateAppDelegate_iPad.h */,
+				78871DED1438E4C1001454CE /* GetTimeZoomDateAppDelegate_iPad.m */,
+				78871DEF1438E4C1001454CE /* MainWindow_iPad.xib */,
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
+		78871DFF1438E4C1001454CE /* GetTimeZoomDateTests */ = {
+			isa = PBXGroup;
+			children = (
+				78871E051438E4C1001454CE /* GetTimeZoomDateTests.h */,
+				78871E071438E4C1001454CE /* GetTimeZoomDateTests.m */,
+				78871E001438E4C1001454CE /* Supporting Files */,
+			);
+			path = GetTimeZoomDateTests;
+			sourceTree = "<group>";
+		};
+		78871E001438E4C1001454CE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				78871E011438E4C1001454CE /* GetTimeZoomDateTests-Info.plist */,
+				78871E021438E4C1001454CE /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		78871DCD1438E4C1001454CE /* GetTimeZoomDate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78871E0B1438E4C1001454CE /* Build configuration list for PBXNativeTarget "GetTimeZoomDate" */;
+			buildPhases = (
+				78871DCA1438E4C1001454CE /* Sources */,
+				78871DCB1438E4C1001454CE /* Frameworks */,
+				78871DCC1438E4C1001454CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GetTimeZoomDate;
+			productName = GetTimeZoomDate;
+			productReference = 78871DCE1438E4C1001454CE /* GetTimeZoomDate.app */;
+			productType = "com.apple.product-type.application";
+		};
+		78871DF61438E4C1001454CE /* GetTimeZoomDateTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78871E0E1438E4C1001454CE /* Build configuration list for PBXNativeTarget "GetTimeZoomDateTests" */;
+			buildPhases = (
+				78871DF21438E4C1001454CE /* Sources */,
+				78871DF31438E4C1001454CE /* Frameworks */,
+				78871DF41438E4C1001454CE /* Resources */,
+				78871DF51438E4C1001454CE /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				78871DFE1438E4C1001454CE /* PBXTargetDependency */,
+			);
+			name = GetTimeZoomDateTests;
+			productName = GetTimeZoomDateTests;
+			productReference = 78871DF71438E4C1001454CE /* GetTimeZoomDateTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		78871DC51438E4C0001454CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "University of Chicago";
+			};
+			buildConfigurationList = 78871DC81438E4C0001454CE /* Build configuration list for PBXProject "GetTimeZoomDate" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 78871DC31438E4C0001454CE;
+			productRefGroup = 78871DCF1438E4C1001454CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				78871DCD1438E4C1001454CE /* GetTimeZoomDate */,
+				78871DF61438E4C1001454CE /* GetTimeZoomDateTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		78871DCC1438E4C1001454CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78871DDD1438E4C1001454CE /* InfoPlist.strings in Resources */,
+				78871DEA1438E4C1001454CE /* MainWindow_iPhone.xib in Resources */,
+				78871DF11438E4C1001454CE /* MainWindow_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78871DF41438E4C1001454CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78871E041438E4C1001454CE /* InfoPlist.strings in Resources */,
+				78871E061438E4C1001454CE /* GetTimeZoomDateTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		78871DF51438E4C1001454CE /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		78871DCA1438E4C1001454CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78871DDF1438E4C1001454CE /* main.m in Sources */,
+				78871DE31438E4C1001454CE /* GetTimeZoomDateAppDelegate.m in Sources */,
+				78871DE71438E4C1001454CE /* GetTimeZoomDateAppDelegate_iPhone.m in Sources */,
+				78871DEE1438E4C1001454CE /* GetTimeZoomDateAppDelegate_iPad.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78871DF21438E4C1001454CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78871E081438E4C1001454CE /* GetTimeZoomDateTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		78871DFE1438E4C1001454CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 78871DCD1438E4C1001454CE /* GetTimeZoomDate */;
+			targetProxy = 78871DFD1438E4C1001454CE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		78871DDB1438E4C1001454CE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				78871DDC1438E4C1001454CE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		78871DE81438E4C1001454CE /* MainWindow_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				78871DE91438E4C1001454CE /* en */,
+			);
+			name = MainWindow_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		78871DEF1438E4C1001454CE /* MainWindow_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				78871DF01438E4C1001454CE /* en */,
+			);
+			name = MainWindow_iPad.xib;
+			sourceTree = "<group>";
+		};
+		78871E021438E4C1001454CE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				78871E031438E4C1001454CE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		78871E091438E4C1001454CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		78871E0A1438E4C1001454CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		78871E0C1438E4C1001454CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GetTimeZoomDate/GetTimeZoomDate-Prefix.pch";
+				INFOPLIST_FILE = "GetTimeZoomDate/GetTimeZoomDate-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		78871E0D1438E4C1001454CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GetTimeZoomDate/GetTimeZoomDate-Prefix.pch";
+				INFOPLIST_FILE = "GetTimeZoomDate/GetTimeZoomDate-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		78871E0F1438E4C1001454CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GetTimeZoomDate.app/GetTimeZoomDate";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GetTimeZoomDate/GetTimeZoomDate-Prefix.pch";
+				INFOPLIST_FILE = "GetTimeZoomDateTests/GetTimeZoomDateTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		78871E101438E4C1001454CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GetTimeZoomDate.app/GetTimeZoomDate";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GetTimeZoomDate/GetTimeZoomDate-Prefix.pch";
+				INFOPLIST_FILE = "GetTimeZoomDateTests/GetTimeZoomDateTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		78871DC81438E4C0001454CE /* Build configuration list for PBXProject "GetTimeZoomDate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78871E091438E4C1001454CE /* Debug */,
+				78871E0A1438E4C1001454CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78871E0B1438E4C1001454CE /* Build configuration list for PBXNativeTarget "GetTimeZoomDate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78871E0C1438E4C1001454CE /* Debug */,
+				78871E0D1438E4C1001454CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		78871E0E1438E4C1001454CE /* Build configuration list for PBXNativeTarget "GetTimeZoomDateTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78871E0F1438E4C1001454CE /* Debug */,
+				78871E101438E4C1001454CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 78871DC51438E4C0001454CE /* Project object */;
+}
