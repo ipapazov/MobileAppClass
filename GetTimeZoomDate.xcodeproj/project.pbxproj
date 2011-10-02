@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		780352DB14390A4100071A32 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 780352DA14390A4100071A32 /* Icon.png */; };
 		78871DD31438E4C1001454CE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78871DD21438E4C1001454CE /* UIKit.framework */; };
 		78871DD51438E4C1001454CE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78871DD41438E4C1001454CE /* Foundation.framework */; };
 		78871DD71438E4C1001454CE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78871DD61438E4C1001454CE /* CoreGraphics.framework */; };
@@ -37,25 +38,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		780352DA14390A4100071A32 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 		78871DCE1438E4C1001454CE /* GetTimeZoomDate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GetTimeZoomDate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		78871DD21438E4C1001454CE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		78871DD41438E4C1001454CE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		78871DD61438E4C1001454CE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		78871DDA1438E4C1001454CE /* GetTimeZoomDate-Info.plist */ = {isa = PBXFileReference; path = "GetTimeZoomDate-Info.plist"; sourceTree = "<group>"; };
+		78871DDA1438E4C1001454CE /* GetTimeZoomDate-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GetTimeZoomDate-Info.plist"; sourceTree = "<group>"; };
 		78871DDC1438E4C1001454CE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		78871DDE1438E4C1001454CE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		78871DE01438E4C1001454CE /* GetTimeZoomDate-Prefix.pch */ = {isa = PBXFileReference; path = "GetTimeZoomDate-Prefix.pch"; sourceTree = "<group>"; };
-		78871DE11438E4C1001454CE /* GetTimeZoomDateAppDelegate.h */ = {isa = PBXFileReference; path = GetTimeZoomDateAppDelegate.h; sourceTree = "<group>"; };
+		78871DE01438E4C1001454CE /* GetTimeZoomDate-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GetTimeZoomDate-Prefix.pch"; sourceTree = "<group>"; };
+		78871DE11438E4C1001454CE /* GetTimeZoomDateAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GetTimeZoomDateAppDelegate.h; sourceTree = "<group>"; };
 		78871DE21438E4C1001454CE /* GetTimeZoomDateAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GetTimeZoomDateAppDelegate.m; sourceTree = "<group>"; };
-		78871DE51438E4C1001454CE /* GetTimeZoomDateAppDelegate_iPhone.h */ = {isa = PBXFileReference; name = GetTimeZoomDateAppDelegate_iPhone.h; path = iPhone/GetTimeZoomDateAppDelegate_iPhone.h; sourceTree = "<group>"; };
+		78871DE51438E4C1001454CE /* GetTimeZoomDateAppDelegate_iPhone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GetTimeZoomDateAppDelegate_iPhone.h; path = iPhone/GetTimeZoomDateAppDelegate_iPhone.h; sourceTree = "<group>"; };
 		78871DE61438E4C1001454CE /* GetTimeZoomDateAppDelegate_iPhone.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = GetTimeZoomDateAppDelegate_iPhone.m; path = iPhone/GetTimeZoomDateAppDelegate_iPhone.m; sourceTree = "<group>"; };
 		78871DE91438E4C1001454CE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPhone/en.lproj/MainWindow_iPhone.xib; sourceTree = "<group>"; };
-		78871DEC1438E4C1001454CE /* GetTimeZoomDateAppDelegate_iPad.h */ = {isa = PBXFileReference; name = GetTimeZoomDateAppDelegate_iPad.h; path = iPad/GetTimeZoomDateAppDelegate_iPad.h; sourceTree = "<group>"; };
+		78871DEC1438E4C1001454CE /* GetTimeZoomDateAppDelegate_iPad.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GetTimeZoomDateAppDelegate_iPad.h; path = iPad/GetTimeZoomDateAppDelegate_iPad.h; sourceTree = "<group>"; };
 		78871DED1438E4C1001454CE /* GetTimeZoomDateAppDelegate_iPad.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = GetTimeZoomDateAppDelegate_iPad.m; path = iPad/GetTimeZoomDateAppDelegate_iPad.m; sourceTree = "<group>"; };
 		78871DF01438E4C1001454CE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPad/en.lproj/MainWindow_iPad.xib; sourceTree = "<group>"; };
 		78871DF71438E4C1001454CE /* GetTimeZoomDateTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GetTimeZoomDateTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		78871DF81438E4C1001454CE /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		78871E011438E4C1001454CE /* GetTimeZoomDateTests-Info.plist */ = {isa = PBXFileReference; path = "GetTimeZoomDateTests-Info.plist"; sourceTree = "<group>"; };
+		78871E011438E4C1001454CE /* GetTimeZoomDateTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GetTimeZoomDateTests-Info.plist"; sourceTree = "<group>"; };
 		78871E031438E4C1001454CE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		78871E051438E4C1001454CE /* GetTimeZoomDateTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GetTimeZoomDateTests.h; sourceTree = "<group>"; };
 		78871E071438E4C1001454CE /* GetTimeZoomDateTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GetTimeZoomDateTests.m; sourceTree = "<group>"; };
@@ -131,6 +133,7 @@
 		78871DD91438E4C1001454CE /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				780352DA14390A4100071A32 /* Icon.png */,
 				78871DDA1438E4C1001454CE /* GetTimeZoomDate-Info.plist */,
 				78871DDB1438E4C1001454CE /* InfoPlist.strings */,
 				78871DDE1438E4C1001454CE /* main.m */,
@@ -251,6 +254,7 @@
 				78871DDD1438E4C1001454CE /* InfoPlist.strings in Resources */,
 				78871DEA1438E4C1001454CE /* MainWindow_iPhone.xib in Resources */,
 				78871DF11438E4C1001454CE /* MainWindow_iPad.xib in Resources */,
+				780352DB14390A4100071A32 /* Icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -467,6 +471,7 @@
 				78871E0D1438E4C1001454CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		78871E0E1438E4C1001454CE /* Build configuration list for PBXNativeTarget "GetTimeZoomDateTests" */ = {
 			isa = XCConfigurationList;
@@ -475,6 +480,7 @@
 				78871E101438E4C1001454CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

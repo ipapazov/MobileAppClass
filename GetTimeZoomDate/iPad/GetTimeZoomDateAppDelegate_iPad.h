@@ -8,6 +8,16 @@
 
 #import "GetTimeZoomDateAppDelegate.h"
 
-@interface GetTimeZoomDateAppDelegate_iPad : GetTimeZoomDateAppDelegate
+@interface GetTimeZoomDateAppDelegate_iPad : GetTimeZoomDateAppDelegate {
+    UILabel *timeLabel;
+    UILabel *dateLabel;
+}
+
+
+@property (nonatomic, retain) IBOutlet UILabel *timeLabel;
+@property (nonatomic, retain) IBOutlet UILabel *dateLabel;
+
+- (IBAction)dateScrollBar:(id)sender;
+- (IBAction)dateTimeButton:(id)sender;
 
 @end
